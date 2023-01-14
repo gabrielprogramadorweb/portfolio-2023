@@ -19,7 +19,7 @@ const Services = () => {
             <div className="awesome">
                 <span style={{ color: darkMode ? 'white' : '' }}>Meus serviços </span>
                 <span>Incríveis</span>
-                <span>Lorem ipsum dolor, sit amet<br /> consectetur adipisicing elit. </span>
+                <span>Confira meu currículo &#x1F447;<br />  </span>
                 <a href={Resume} download>
                     <button className="button s-button">Download CV</button>
                     <div className="blur s-blur1" style={{ background: "#abf1ff94" }}></div></a>
