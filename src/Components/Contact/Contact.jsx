@@ -29,7 +29,7 @@ const Contact = () => {
         <div className='contact-form'>
             <div className="w-left">
                 <div className="awesome">
-                    <span style={{ color: darkMode ? 'white' : '' }}>Entrar em contato</span>
+                    <span style={{ color: darkMode ? 'white' : '' }}>Ficou com alguma dúvida?</span>
                     <span>Contate-me</span>
                     <div className="blur s-blur1" style={{ background: '#abf1ff94' }}>
 
