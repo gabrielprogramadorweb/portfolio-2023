@@ -5,6 +5,7 @@ import Onpizza from '../../img/onpizza.png';
 import LojaNike from '../../img/lojanike.png';
 import Jogo from '../../img/jogo.png'
 import Divconta from '../../img/divconta.png'
+import Meta from '../../img/meta.png'
 import 'swiper/css'
 import { themeContext } from '../../Context';
 import { useContext } from 'react'
@@ -20,6 +21,10 @@ const Portfolio = () => {
 
             {/* slider */}
             <Swiper spaceBetween={30} slidesPerView={3} grabCursor={true} className='portfolio-slider'>
+                <SwiperSlide>
+                    <a href='https://metaverso-gray.vercel.app/'>
+                        <img src={Meta} alt="" /></a>
+                </SwiperSlide>
                 <SwiperSlide>
                     <a href='https://onpizza.vercel.app/'>
                         <img src={Onpizza} alt="" /></a>
