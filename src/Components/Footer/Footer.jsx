@@ -12,7 +12,6 @@ const Footer = () => {
             <div className="f-content">
                 <span>&copy;Gabriel Castro</span>
                 <div className="f-icons">
-                    <a href='https://www.instagram.com/dignodev/'>  <Insta color='white' size='3rem' /></a>
                     <a href='https://github.com/gabrielprogramadorweb/'>
                         <Github color='white' size='3rem' /></a>
                     <a href='https://www.linkedin.com/in/gabriel-castro-231318193/'>

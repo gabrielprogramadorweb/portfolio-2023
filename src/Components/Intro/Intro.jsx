@@ -29,7 +29,7 @@ const Intro = () => {
                     <div className='i-name'>
                         <span style={{ color: darkMode ? 'white' : '' }}>Oi! Eu Sou o </span>
                         <span>Gabriel Castro </span>
-                        <span>Sou desenvolvedor Web Front-End com experiência em React & Next</span>
+                        <span>Sou desenvolvedor Full Stack</span>
                     </div>
                     <a href='https://www.linkedin.com/in/gabriel-castro-231318193/'>
                         <button className="button i-button">Contrate-me</button></a>
@@ -37,7 +37,6 @@ const Intro = () => {
                         <a href='https://github.com/gabrielprogramadorweb/'> <img src={Github} alt='' /></a>
                         <a href='https://www.linkedin.com/in/gabriel-castro-231318193/'>
                             <img src={LinkedIn} alt='' /></a>
-                        <a href='https://www.instagram.com/dignodev/'> <img src={Instagram} alt='' /></a>
                     </div>
                 </div>
                 <div className='i-right'>

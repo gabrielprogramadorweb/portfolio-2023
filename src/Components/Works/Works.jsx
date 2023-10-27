@@ -2,8 +2,8 @@ import React from 'react'
 import './Works.css'
 import Next from "../../img/next.png";
 import Js from "../../img/js.png";
-import Sanity from "../../img/sanity.png";
-import Node from "../../img/Node.png";
+import Java from "../../img/java.png";
+import PHP from "../../img/php.png";
 import Reac from "../../img/react.png";
 import { themeContext } from '../../Context';
 import { useContext } from 'react'
@@ -41,10 +41,10 @@ const Works = () => {
                         <img src={Js} alt="" />
                     </div>
                     <div className="w-secCircle">
-                        <img src={Node} alt="" />
+                        <img src={PHP} alt="" />
                     </div>
                     <div className="w-secCircle">
-                        <img src={Sanity} alt="" />
+                        <img src={Java} alt="" />
                     </div>
                     <div className="w-secCircle">
                         <img src={Reac} alt="" />
